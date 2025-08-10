@@ -1,0 +1,28 @@
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+**/logs/
+*.log
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+
+# Docker
+*.jar
+*.war
+*.ear
+docker-compose.override.yml
+
+# H2 DB
+*.mv.db
+*.trace.db

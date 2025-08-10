@@ -1,0 +1,15 @@
+spring:
+  main:
+    web-application-type: none   # это чисто шедулер; без веб-сервера
+
+sdk:
+  base-url: http://localhost:8080
+  api-key: ""
+  window:
+    unit: SECONDS
+    amount: 1
+  limit-per-window: 5
+
+sender:
+  batch:
+    fixed-rate-ms: 5000
