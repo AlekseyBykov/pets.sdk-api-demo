@@ -1,4 +1,4 @@
-package dev.abykov.api.receiver;
+package dev.abykov.sdkapi.receiver;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

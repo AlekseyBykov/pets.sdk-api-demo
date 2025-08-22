@@ -1,6 +1,6 @@
-package dev.abykov.sender;
+package dev.abykov.sdkapi.sender;
 
-import dev.abykov.sdk.ApiClient;
+import dev.abykov.sdkapi.client.ApiClient;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

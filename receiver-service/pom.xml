@@ -7,7 +7,7 @@
     <name>Receiver Service</name>
 
     <parent>
-        <groupId>dev.abykov</groupId>
+        <groupId>dev.abykov.sdkapi</groupId>
         <artifactId>pets.sdk-api-demo</artifactId>
         <version>1.0.0</version>
     </parent>
@@ -16,17 +16,6 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-logging</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>jakarta.servlet</groupId>
-            <artifactId>jakarta.servlet-api</artifactId>
-            <scope>provided</scope>
         </dependency>
     </dependencies>
 

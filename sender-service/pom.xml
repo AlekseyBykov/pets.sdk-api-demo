@@ -7,20 +7,21 @@
     <name>Sender Service</name>
 
     <parent>
-        <groupId>dev.abykov</groupId>
+        <groupId>dev.abykov.sdkapi</groupId>
         <artifactId>pets.sdk-api-demo</artifactId>
         <version>1.0.0</version>
     </parent>
 
     <dependencies>
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>dev.abykov</groupId>
+            <groupId>dev.abykov.sdkapi</groupId>
             <artifactId>sdk-client</artifactId>
             <version>1.0.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>

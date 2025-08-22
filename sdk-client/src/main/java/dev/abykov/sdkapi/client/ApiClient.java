@@ -1,4 +1,4 @@
-package dev.abykov.sdk;
+package dev.abykov.sdkapi.client;
 
 import java.net.URI;
 import java.net.http.*;
